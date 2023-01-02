@@ -1,0 +1,49 @@
+.main{
+    background-image: url("https://imgs.search.brave.com/Zlq8qbcW9ehwwg8svx34Uj8e4L_L_v7Fw2LLoFgPRlg/rs:fit:1200:1200:1/g:ce/aHR0cHM6Ly9tb2Jp/ZGV2LmJpei93cC1j/b250ZW50L3VwbG9h/ZHMvMjAxOS8wNy91/aS11eC1kZXNpZ24t/c2VydmljZXMucG5n");
+    height: 100vh;
+    position: relative;
+
+}
+form{
+    width: 50%;
+    margin-left: 30%;
+    border: 5px solid rgb(22, 22, 22);
+    text-align: center;
+    background-color: rgb(89, 86, 81);
+    margin-top: 5%;
+    position: absolute;
+}
+h2{
+text-align: left;
+} 
+#textfile , #email , #phone{
+    width: 97%;
+    margin-left: 1%;
+    margin-right: 2%;
+}
+#date{
+    width: 40%;
+    margin-left: 3%;
+    height: 4vh;
+}
+#time{
+    width: 30%;
+    height: 4vh;
+}
+#button{
+    width: 100%;
+    height: 5vh;
+    color: red;
+    background: black;
+    border: 1px solid blue;
+    border-radius: 30px;
+    margin-top: 2%;
+}
+.bg_dark{
+    background-color: red;
+    color: black;
+    
+}
+.bg_dark h1{
+    color: blue;
+}
