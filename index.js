@@ -69,23 +69,32 @@
 // document.querySelector('body').classList.add('bg_dark');
 // }) ;
 
-const myForm = document.querySelector('formSection');
-const nameInput = document.querySelector('#textfile');
-const emailInput = document.querySelector('#email');
- myForm.addEventListener('submit', onsubmit);
- function onsubmit(e) {
-  e.preventDefault();
-  if(nameInput.value === '' || emailInput.value === ''){
-    alert('Please enter required field')
-  }
-  else{
-       const li =document.createElement('li');
-       li.appendChild(document.createTextNode(`$
-       {nameInput.value}: ${emailInput.value}`));
-userList.appendChild(li);
-nameInput.value='';
-emailInput.value=';'
+// const myForm = document.querySelector('formSection');
+// const nameInput = document.querySelector('#textfile');
+// const emailInput = document.querySelector('#email');
+//  myForm.addEventListener('submit', onsubmit);
+//  function onsubmit(e) {
+//   e.preventDefault();
+//   if(nameInput.value === '' || emailInput.value === ''){
+//     alert('Please enter required field')
+//   }
+//   else{
+//        const li =document.createElement('li');
+//        li.appendChild(document.createTextNode(`$
+//        {nameInput.value}: ${emailInput.value}`));
+// userList.appendChild(li);
+// nameInput.value='';
+// emailInput.value=';'
 
-  }
- }
+//   }
+//  }
+
+
+function callvalue(event){
+  event.preventDefault();
+  console.log("name" + event.target.name.value);
+  console.log("email" + event.target.email.value);
+  console.log("phone" + event.target.phone.value);     
+}
+
 
